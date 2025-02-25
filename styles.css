@@ -1,0 +1,95 @@
+.background {
+    background: linear-gradient(to bottom right, orange, yellow, green);
+    /* height: 100vh; */
+    margin-top: 3px;
+    padding: 5px;
+    width: 400px;
+}
+
+.border1 {
+    border: 3px solid black;
+    height: 95%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.border2 {
+    border: 3px solid black;
+    height: 99%;
+}
+
+.heading1 {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.heading2 {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+ 
+.image1 {
+    width: 100%;
+    height: 180px;
+    background-image: url(./IMG-20250224-WA0076.jpg);
+    background-size: contain;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    
+}
+
+.text {
+    padding: 10px;
+}
+
+ .text span {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+ }
+
+ .image2 {
+    width: 100%;
+    height: 180px;
+    background-image: url(./IMG-20250224-WA0187.jpg);
+    background-size: contain;
+    /* background-position: center; Centers the image */
+    background-repeat: no-repeat;
+    margin: 15px;
+    
+}
+
+.gdg {
+    /* float: right; */
+    width: 100%;
+    height: 180px;
+    background-image: url(./IMG-20250224-WA0075.jpg);
+    background-size: contain;
+    /* background-position: center; Centers the image */
+    background-repeat: no-repeat;
+    margin-left: 50%
+}
+
+.rsvptag {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.rsvptag span {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+} 
+
+.c {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
